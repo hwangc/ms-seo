@@ -9,7 +9,7 @@ Package.onUse(function(api){
 
   api.versionsFrom('1.0');
 
-  api.use(['mongo', 'coffeescript', 'underscore']);
+  api.use(['mongo', 'coffeescript', 'underscore', 'check']);
 
   api.use([
     'jquery',
